@@ -48,9 +48,16 @@ nav a{
     border-radius: 50px;
     border:none;
     font-family: 'Roboto', sans-serif;
+    color:#30475e;
+    border:3px solid #30475e;
+    transition:all 0.25s ease-in-out;
 }
 #main-title button:hover{
     cursor: pointer;
+    background-color:#30475e;
+    color:white;
+    box-shadow:0 0.5em 0.5em -0.4em #f1ff5c;
+    border:none;
 }
 
 #courses{
